@@ -1,0 +1,52 @@
+Sohail nasir
+L1f16-bscs-0328
+DB-CASE STUDY
+
+In this project I choose to make a sms system. It includes several tables such as teacher,student,course,timetable,fee information etc.
+Teacher
+tid	Unique, not null, primary key,number
+name	Not null, varchar,text type,
+cnic	Notnull,number
+email	Not null, varchar,text type,
+Phone#	Not null,multivalued,number
+adress	Not null, multivalued,varchar ,text type
+qualification	Not null,type varchar
+Employement date	Not null, datetype
+department	Not null, varchar text type
+
+ 
+Student
+sid	Unique,not null,primary,number
+Name 	Not null, varchar text type
+Cnic/b-form	Notnull,number
+Email	Not null,multivalued,varchar
+Phone#	Not null,number,multivalued
+adress	Not null,multivalued,varchar
+faculity	Not null,varchar
+courses	Not null,varchar
+Father name	Not null,varchar
+Date of birth	Not null,date type
+
+Courses
+cid	Not null,primary key,unique
+Course name	Not null, varchar text type
+Credit hour	Not null, number type
+	
+Time table
+Sid
+teacher	Not null, primary,unique
+Not null, number
+class	Not null
+venue	Not null
+time	Not null,date type
+	
+
+Fee type
+Monthly tuition fee	Primary,not null,number type
+discount	Not null, number type
+sibling	Not null,number type,forinr key
+extra	Not null, number type
+tax	Not null, number type
+Cooling/heating(luxury)	Not null,number type
+
+
